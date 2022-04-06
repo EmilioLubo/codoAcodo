@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #efefd0;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #cfcff1 12%, transparent 12.5%, transparent 87%, #cfcff1 87.5%, #cfcff1), linear-gradient(150deg, #cfcff1 12%, transparent 12.5%, transparent 87%, #cfcff1 87.5%, #cfcff1), linear-gradient(30deg, #cfcff1 12%, transparent 12.5%, transparent 87%, #cfcff1 87.5%, #cfcff1), linear-gradient(150deg, #cfcff1 12%, transparent 12.5%, transparent 87%, #cfcff1 87.5%, #cfcff1), linear-gradient(60deg, #cfcff177 25%, transparent 25.5%, transparent 75%, #cfcff177 75%, #cfcff177), linear-gradient(60deg, #cfcff177 25%, transparent 25.5%, transparent 75%, #cfcff177 75%, #cfcff177);
+    background-size: 18px 32px;
+    background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+h1, h2, .header__list{
+    text-align: center;
+    font-family: 'Nova Mono', monospace;
+}    
+
+p{
+    text-indent: 1rem;
+    padding: 1rem;
+}
+
+.header{
+    margin: 1rem;
+}
+
+.header__nav{
+    margin-bottom: 3rem;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header__item{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.main__skills{
+    background-color: beige;
+    margin: 1rem;
+}
+
+.main__experience{
+    background-color: aliceblue;
+    margin: 1rem;
+}
